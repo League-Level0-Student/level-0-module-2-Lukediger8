@@ -27,9 +27,9 @@ public class StringsCannotAdd {
 			
 			// Insert fourAsString inside the parenthesis of Integer.parseInt() and set the method equal to fourAsInt
 			// Hint: int fourAsInt = Integer.parseInt(fourAsString);
-			
+			int fourAsInt = Integer.parseInt(fourAsString);
 			// 7) Do the same for sixAsString. 
-			
+			int sixAsInt = Integer.parseInt(sixAsString);
 			// 8) Print the addition of fourAsInt and sixAsInt using JOptionPane 
 			
 			// Did you notice the value 10? If so, hurray! You just changed the type of your variable from String to int.
