@@ -31,13 +31,27 @@ public class AnimalFarm {
 		
 		JOptionPane.showInputDialog("which animal do you want?");
 			
-		}
+		
 		/* 2. Make it so that the user can keep entering new animals. */
 	
-	String input = JOptionPane.showInputDialog(null, "choose an animal")){
-	if(input.equals("cow")){ moo(); )( else if (input.equals("dog")){woof();} else if(input.equals("llama")); 
+		String input = JOptionPane.showInputDialog(null, "choose an animal");
+		if(input.equals("cow")) {
+			moo();
+		}
+		else if (input.equals("dog")) {
+			woof();
+		} 
+		else if(input.equals("llama")) { 
+			llamaScream();
+		}
+	
+		else if(input.equals("duck")) {
+			quack();
+			}
+		else if(input.equals("cat")) {
+			meow();
+		}
 	}
-
 
 	void moo() {
 		playNoise(mooFile);
@@ -63,8 +77,6 @@ public class AnimalFarm {
 		playNoise(llamaFile);
 		showImage(llamaIcon);
 	}
-	
-
 
 	
 
